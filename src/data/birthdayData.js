@@ -35,55 +35,47 @@ export const birthdayData = {
     { id: 10, title: "Simply Because You Are Noorani", desc: "There is no one else like you. You are my dream, my love, and my whole world." }
   ],
 
-  // Memories / Polaroid photos
+  // Real photos of Noorani & Varun
   polaroids: [
     {
       id: 1,
-      caption: "My Kolandha Has Turned 21! 😂✨",
-      date: "Milestone Day",
-      note: "Periya ponna aaita! To endless laughs and beautiful years ahead.",
-      image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=700&q=80",
-      rotation: "-3deg"
+      caption: "Us Together Always 💖",
+      date: "My Favourite Person",
+      note: "Happy birthday to the girl who makes my world a little more beautiful just by being in it 💕",
+      image: "/photos/photo1.jpg",
+      rotation: "-2.5deg"
     },
     {
       id: 2,
-      caption: "That Precious Smile 💕",
-      date: "Pure Happiness",
-      note: "The smile that makes my entire world more beautiful.",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80",
+      caption: "Periya Ponna Aaita! 21 ✨",
+      date: "21st Milestone",
+      note: "My kolandha has turned 21! I pray Allah always protects you and blesses you with a beautiful life chello 😂💖",
+      image: "/photos/photo5.jpg",
       rotation: "2.5deg"
     },
     {
       id: 3,
-      caption: "Small Talks & Silly Memories ☕",
-      date: "Everyday Magic",
-      note: "All our little conversations are my favorite memories diii.",
-      image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=700&q=80",
+      caption: "Un Kooda Every Moment 🌙",
+      date: "Precious Talks",
+      note: "Un kooda every moment feels precious diii. All the small small conversations, big discussions and silly talk are the best memories 😚",
+      image: "/photos/photo2.jpg",
       rotation: "-2deg"
     },
     {
       id: 4,
-      caption: "Golden Sunset Walks 🌅",
-      date: "Forever Vibes",
-      note: "Holding your hand and creating memories forever.",
-      image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=700&q=80",
+      caption: "Pure Elegance & Grace 🌸",
+      date: "My Gorgeous Queen",
+      note: "Nee dha ennoda spl part of my life, nee dha reason of my happiness. Truly breathtaking chello ☺️",
+      image: "/photos/photo4.jpg",
       rotation: "3deg"
     },
     {
       id: 5,
-      caption: "Chasing Dreams Together 🚀",
-      date: "Our Journey",
-      note: "I pray Allah gives you everything your heart wishes for chello.",
-      image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=700&q=80",
+      caption: "Creating Memories Together 🌿",
+      date: "Our Beautiful Journey",
+      note: "I promise you one thing: we will always create beautiful memories together and always be very happy with each other 😘",
+      image: "/photos/photo3.jpg",
       rotation: "-1.5deg"
-    },
-    {
-      id: 6,
-      caption: "Happy Birthday Chello! 🥂💖",
-      date: "Chapter 21",
-      note: "You deserve all the happiness in the entire world, my love.",
-      image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=700&q=80",
-      rotation: "2deg"
     }
   ],
 
