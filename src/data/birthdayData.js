@@ -35,7 +35,7 @@ export const birthdayData = {
     { id: 10, title: "Simply Because You Are Noorani", desc: "There is no one else like you. You are my dream, my love, and my whole world." }
   ],
 
-  // Real photos of Noorani & Varun
+  // All 6 Real photos of Noorani & Varun
   polaroids: [
     {
       id: 1,
@@ -51,7 +51,7 @@ export const birthdayData = {
       date: "21st Milestone",
       note: "My kolandha has turned 21! I pray Allah always protects you and blesses you with a beautiful life chello 😂💖",
       image: "/photos/photo5.jpg",
-      rotation: "2.5deg"
+      rotation: "2deg"
     },
     {
       id: 3,
@@ -59,23 +59,31 @@ export const birthdayData = {
       date: "Precious Talks",
       note: "Un kooda every moment feels precious diii. All the small small conversations, big discussions and silly talk are the best memories 😚",
       image: "/photos/photo2.jpg",
-      rotation: "-2deg"
+      rotation: "-3deg"
     },
     {
       id: 4,
+      caption: "In Your Warm Embrace 💜",
+      date: "My Safe Place",
+      note: "In a chaotic world, simply being close to you feels like coming home. You are my everything diii 🥰",
+      image: "/photos/photo6.jpg",
+      rotation: "2.5deg"
+    },
+    {
+      id: 5,
       caption: "Pure Elegance & Grace 🌸",
       date: "My Gorgeous Queen",
       note: "Nee dha ennoda spl part of my life, nee dha reason of my happiness. Truly breathtaking chello ☺️",
       image: "/photos/photo4.jpg",
-      rotation: "3deg"
+      rotation: "-1.5deg"
     },
     {
-      id: 5,
+      id: 6,
       caption: "Creating Memories Together 🌿",
       date: "Our Beautiful Journey",
       note: "I promise you one thing: we will always create beautiful memories together and always be very happy with each other 😘",
       image: "/photos/photo3.jpg",
-      rotation: "-1.5deg"
+      rotation: "3deg"
     }
   ],
 
