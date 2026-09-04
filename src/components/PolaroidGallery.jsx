@@ -1,28 +1,10 @@
-import React, { useState, useRef } from 'react';
-import { Camera, X, ChevronLeft, ChevronRight, Plus, Heart, Sparkles, ZoomIn } from 'lucide-react';
+import React, { useState } from 'react';
+import { X, ChevronLeft, ChevronRight, ZoomIn } from 'lucide-react';
 import { birthdayData } from '../data/birthdayData';
 
 export default function PolaroidGallery() {
-  const [photos, setPhotos] = useState(birthdayData.polaroids);
+  const [photos] = useState(birthdayData.polaroids);
   const [activePhoto, setActivePhoto] = useState(null);
-  const fileInputRef = useRef(null);
-
-  const handleAddPhoto = (e) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
-
-    const newPhotoUrl = URL.createObjectURL(file);
-    const newEntry = {
-      id: Date.now(),
-      caption: 'My Queen Noorani 💖',
-      date: 'Cherished Memory',
-      note: 'Every picture with you is my new favorite memory.',
-      image: newPhotoUrl,
-      rotation: `${(Math.random() * 6 - 3).toFixed(1)}deg`
-    };
-
-    setPhotos([newEntry, ...photos]);
-  };
 
   const openModal = (photo) => {
     setActivePhoto(photo);
@@ -55,31 +37,6 @@ export default function PolaroidGallery() {
           <p>
             Moments, smiles, and glimpses of the woman who makes life feel like poetry.
           </p>
-
-          {/* Quick upload button for the user */}
-          <div style={{ marginTop: '16px' }}>
-            <button
-              onClick={() => fileInputRef.current?.click()}
-              className="glass-pill"
-              style={{
-                cursor: 'pointer',
-                borderColor: 'var(--accent-primary)',
-                color: 'var(--text-primary)',
-                background: 'rgba(244, 63, 94, 0.12)'
-              }}
-              title="Add or replace photos with your own real pictures"
-            >
-              <Plus size={15} style={{ color: 'var(--accent-primary)' }} />
-              <span>Add Your Own Photos of Noorani</span>
-            </button>
-            <input
-              ref={fileInputRef}
-              type="file"
-              accept="image/*"
-              onChange={handleAddPhoto}
-              style={{ display: 'none' }}
-            />
-          </div>
         </div>
 
         {/* Polaroid Grid */}

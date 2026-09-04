@@ -6,7 +6,7 @@ export const birthdayData = {
   milestoneTitle: "Periya Ponna Aaita! 21st Milestone Edition ✨",
   birthDate: "2005-09-05",
   
-  // Romantic letter content (Direct from your heart)
+  // Romantic letter content (From Saalik to Noorani)
   loveLetter: {
     greeting: "Heyyyy Noorani ❤️",
     paragraphs: [
@@ -18,7 +18,7 @@ export const birthdayData = {
       "Happy birthday my love. You deserve all the happiness in the world! 💖"
     ],
     closing: "Forever and always yours,",
-    signature: "With all my love ❤️"
+    signature: "Yours, Saalik ❤️"
   },
 
   // 10 Reasons why I love you (for the surprise deck)
@@ -35,7 +35,7 @@ export const birthdayData = {
     { id: 10, title: "Simply Because You Are Noorani", desc: "There is no one else like you. You are my dream, my love, and my whole world." }
   ],
 
-  // All 6 Real photos of Noorani & Varun
+  // All 6 Real photos of Noorani & Saalik
   polaroids: [
     {
       id: 1,
@@ -57,7 +57,7 @@ export const birthdayData = {
       id: 3,
       caption: "Un Kooda Every Moment 🌙",
       date: "Precious Talks",
-      note: "Un kooda every moment feels precious diii. All the small small conversations, big discussions and silly talk are the best memories 😚",
+      note: "Un kooda every moment feels precious diii. All the small small conversations and silly talk are the best memories 😚",
       image: "/photos/photo2.jpg",
       rotation: "-3deg"
     },
@@ -136,7 +136,7 @@ export const birthdayData = {
       icon: "Ticket",
       gradient: "linear-gradient(135deg, #f43f5e 0%, #be123c 100%)",
       summary: "Unlimited lifetime access to cuddles, snacks, and royal treatment.",
-      details: "This certified pass grants Noorani: (1) Unlimited warm hugs & hand-holds anytime anywhere, (2) Her favorite dessert & comfort foods on demand, (3) Win any friendly argument automatically for 24 hours, (4) Lifelong loyalty and unconditional love."
+      details: "This certified pass grants Noorani: (1) Unlimited warm hugs & hand-holds anytime anywhere, (2) Her favorite dessert & comfort foods on demand, (3) Win any friendly argument automatically for 24 hours, (4) Lifelong loyalty and unconditional love from Saalik."
     },
     {
       id: "wish",
@@ -145,7 +145,7 @@ export const birthdayData = {
       icon: "Sparkle",
       gradient: "linear-gradient(135deg, #fbbf24 0%, #d97706 100%)",
       summary: "One free pass for anything your heart desires today.",
-      details: "No questions asked! Redeemable anytime: A romantic candlelight dinner, a midnight drive with your favorite playlist, a shopping spree day, or a cozy movie marathon with endless popcorn."
+      details: "No questions asked! Redeemable anytime with Saalik: A romantic candlelight dinner, a midnight drive with your favorite playlist, a shopping spree day, or a cozy movie marathon with endless popcorn."
     },
     {
       id: "blessing",

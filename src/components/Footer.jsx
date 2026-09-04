@@ -38,7 +38,7 @@ export default function Footer() {
         </h4>
 
         <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', marginBottom: '24px' }}>
-          Crafted with love, laughs, and endless affection just for you. Here’s to making chapter 21 the most magical year yet!
+          Crafted with all love, laughs, and endless affection for Noorani from Saalik. Here’s to making chapter 21 the most magical year yet!
         </p>
 
         <button

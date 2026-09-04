@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
-import { Sparkles, HeartHandshake, Compass, Crown, Flame, Star, Heart } from 'lucide-react';
+import React from 'react';
+import { Sparkles, HeartHandshake, Compass, Crown, Flame, Star } from 'lucide-react';
 import { birthdayData } from '../data/birthdayData';
 
 export default function WishesWall() {
-  const [heartCount, setHeartCount] = useState(21);
-  const [floatingHearts, setFloatingHearts] = useState([]);
-
   const iconMap = {
     Sparkles,
     HeartHandshake,
@@ -13,24 +10,6 @@ export default function WishesWall() {
     Crown,
     Flame,
     Star
-  };
-
-  const handleSendHeart = (e) => {
-    setHeartCount((prev) => prev + 1);
-
-    const newHeart = {
-      id: Date.now() + Math.random(),
-      x: e.clientX || window.innerWidth / 2,
-      y: e.clientY || window.innerHeight / 2,
-      size: Math.random() * 20 + 20,
-      color: ['#f43f5e', '#fb7185', '#fbbf24', '#c084fc', '#ffffff'][Math.floor(Math.random() * 5)]
-    };
-
-    setFloatingHearts((prev) => [...prev, newHeart]);
-
-    setTimeout(() => {
-      setFloatingHearts((prev) => prev.filter((h) => h.id !== newHeart.id));
-    }, 2500);
   };
 
   return (
@@ -42,18 +21,6 @@ export default function WishesWall() {
           <p>
             May each day ahead be filled with as much happiness as you give to the people around you.
           </p>
-
-          {/* Interactive Heart Button */}
-          <div style={{ marginTop: '20px' }}>
-            <button
-              onClick={handleSendHeart}
-              className="btn-primary pulse-glow"
-              style={{ padding: '12px 28px', fontSize: '0.95rem' }}
-            >
-              <Heart size={18} fill="#ffffff" />
-              <span>Send Love to Noorani ({heartCount} Hearts Sent)</span>
-            </button>
-          </div>
         </div>
 
         {/* Wishes Grid */}
@@ -129,21 +96,6 @@ export default function WishesWall() {
           })}
         </div>
       </div>
-
-      {/* Render Floating Hearts */}
-      {floatingHearts.map((h) => (
-        <div
-          key={h.id}
-          className="floating-heart"
-          style={{
-            left: `${h.x}px`,
-            top: `${h.y}px`,
-            color: h.color
-          }}
-        >
-          <Heart size={h.size} fill={h.color} />
-        </div>
-      ))}
     </section>
   );
 }
